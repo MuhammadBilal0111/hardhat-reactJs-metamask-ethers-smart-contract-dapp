@@ -5,7 +5,7 @@ This project demonstrates how to build a decentralized application (DApp) using 
 ---
 
 ## 🚀 Getting Started
-
+### Navigate to the contract folder and install hardhat and dotenv
 ### 1️⃣ Install Hardhat
 
 ```sh
