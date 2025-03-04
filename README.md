@@ -6,7 +6,7 @@ This project demonstrates how to build a decentralized application (DApp) using 
 
 ## 🚀 Getting Started
 ### Navigate to the contract folder and install hardhat and dotenv
-### 1️⃣ Install Hardhat
+### 1️⃣ Install Hardhat dotenv
 
 ```sh
 npm install hardhat
@@ -80,6 +80,7 @@ npx hardhat verify --network sepolia <CONTRACT_ADDRESS> <CONSTRUCTOR_ARGUMENTS>
 
 ## 💻 Setting Up Frontend (React + Ethers.js)
 
+### Navigate to the client folder and set up the frontend
 ### 1️⃣ Initialize React Vite App
 
 ```sh
@@ -98,7 +99,7 @@ npm install ethers
 
 To interact with your smart contract from the frontend, you need two things:
 
-1️⃣ Contract ABI – Located inside:
+1️⃣ Contract ABI – Located inside the contract folder with the client folder:
 contract/artifacts/contracts/SimpleProject.sol/SimpleProject.json
 
 2️⃣ Contract Address – Stored inside the abi folder within the contract directory.
